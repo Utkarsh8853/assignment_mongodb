@@ -1,0 +1,27 @@
+// post
+{
+  id: ObjectId,             
+  title: String,             
+  content: String,           
+  author: ObjectId,
+  createdAt: Date,           
+  updatedAt: Date,           
+  comments: [                
+    {
+      id: ObjectId,         
+      userId: ObjectId,      
+      content: String,       
+      createdAt: Date,       
+      updatedAt: Date        
+    }
+  ],
+  likes: [                   
+    {
+      id: ObjectId
+      user: ObjectId
+      createdAt: Date
+    }
+  ],
+  tags: [String],    
+
+}

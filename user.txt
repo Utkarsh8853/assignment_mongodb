@@ -1,0 +1,24 @@
+// User schema
+
+
+{
+  id: ObjectId,             
+  firstName: String,         
+  lastName: String,          
+  email: String,             
+  password: String,          
+  dateOfBirth: Date,         
+  address:[ 
+    {  
+        houseNumber: String,          
+        city: String,            
+        state: String,           
+        postalCode: String,      
+        country: String
+    }          
+  ],
+  phoneNumber: String,       
+  profileImage: String,      
+  createdAt: Date,           
+  updatedAt: Date            
+}

@@ -1,0 +1,9 @@
+// Session schema
+{
+  id: ObjectId,           
+  userId: ObjectId,        
+  token: String,
+  expiresAt: Date,         
+  createdAt: Date,         
+  updatedAt: Date          
+}
